@@ -9,6 +9,11 @@ import springfox.documentation.service.ApiInfo;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 
+/**
+ * @author Anthony Jinhyuk Kim
+ * @version 1.0.0
+ * @since 2018-11-06
+ */
 @Configuration
 public class SwaggerConfig {
     @Bean

@@ -20,6 +20,11 @@ import reactor.core.publisher.Mono;
 
 import javax.validation.constraints.NotNull;
 
+/**
+ * @author Anthony Jinhyuk Kim
+ * @version 1.0.0
+ * @since 2018-11-06
+ */
 @Slf4j
 @RestController
 @RequestMapping("/api/v1/auth")
