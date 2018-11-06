@@ -1,0 +1,19 @@
+server:
+  port: 20000
+
+spring:
+  data:
+    mongodb:
+      database: naos
+      username: naos
+      password: cocoon!@#$
+      host: 192.168.0.200
+      port: 27017
+
+logging:
+  level:
+    org.springframework.data.mongodb: DEBUG
+
+jwt:
+  secret: cocoon!@#$
+  expiration: 3600000
