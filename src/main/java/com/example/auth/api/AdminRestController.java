@@ -15,7 +15,7 @@ import reactor.core.publisher.Mono;
  * @since 2018-11-06
  */
 @RestController
-@RequestMapping("/api/v1/admin")
+@RequestMapping("/api/v1/admins")
 public class AdminRestController {
     @GetMapping(value = "test")
     @ApiOperation(httpMethod = "GET", value = "GET test", response = BasicResponse.class)

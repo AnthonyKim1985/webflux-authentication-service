@@ -110,7 +110,7 @@ public class WebfluxAuthenticationServiceApplicationTests {
 
         // When
         final BasicResponse basicResponse = webTestClient
-                .get().uri("/api/v1/admin/test")
+                .get().uri("/api/v1/admins/test")
                 .accept(MediaType.APPLICATION_JSON_UTF8)
                 .header("Authorization", "Bearer " + token)
                 .exchange()
